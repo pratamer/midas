@@ -246,7 +246,7 @@ class MidasApp:
 
     def run_continuously(self):
         while True:
-            self.log("Tool shared in the Telegram channel Dân Cày Airdrop (@dancayairdrop)", Fore.MAGENTA)
+            self.log("Tool shared in the Telegram channel DC", Fore.MAGENTA)
             self.process_accounts()
             self.log("Completed account processing cycle", Fore.MAGENTA)
             self.log(f"Waiting 24 hours before starting the next cycle...", Fore.YELLOW)
